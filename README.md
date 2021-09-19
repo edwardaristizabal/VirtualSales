@@ -1,6 +1,6 @@
 # VirtualSales - Grupo17 - Mission TIC 2022 - Ciclo 3 Septiembre a Octubre 2021
 
-Clone the Project
+###  Please, Clone the Project
 
 ## Mi nombre es Jhon Sebastian Madrid Osorio tengo 27 años y soy tecnólogo en mecatrónica. Cargo Analista.
 
