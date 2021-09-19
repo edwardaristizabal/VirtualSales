@@ -10,4 +10,4 @@
 
 ## Mi nombre es Jhonatan Candelo Cortez tengo 29 años y soy Técnico en Sistemas, actualmente estoy realizando una tecnología de ADSI en el SENA. Cargo Desarrollador.
 
-## Mi nombre es Edward Andrés Aristizábal Montalvo tengo 31 año, soy Tecnólogo en ADSI del SENA, estudio Ingeniería de Sistemas en la UNAD. Cargo de Scrum Master.
+## Mi nombre es Edward Andrés Aristizábal Montalvo tengo 31 años, soy Tecnólogo en ADSI del SENA, estudio Ingeniería de Sistemas en la UNAD. Cargo de Scrum Master.
