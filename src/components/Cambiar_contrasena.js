@@ -34,7 +34,7 @@ function Cambiar_contrasena() {
             <div class="btn-group me-2" role="group">
               <button type="button" class="btn btn-secondary btn-lg">Limpiar</button>
             </div>   
-            <a href="/"><img src={home} alt="home" height="50"/></a>
+            <a href="/Principal"><img src={home} alt="home" height="50"/></a>
           </div>
       </div>
     );

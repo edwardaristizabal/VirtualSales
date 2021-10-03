@@ -2,8 +2,6 @@ import React from 'react'
 import home from "../images/home.png";
 import logo from "../images/logo.png";
 
-{/* Inicio Formulario */}
-
 function Recuperar_contrasena() {
     return (
         <div>
@@ -30,7 +28,7 @@ function Recuperar_contrasena() {
                                 </div><br/>
                             <center> Ya tienes una cuenta? <a href="/">
                             &nbsp;Iniciar sesión</a></center><br/>
-                            <center><a href="/"><img src={home} alt="home" height="50"/></a></center>
+                            <center><a href="/Principal"><img src={home} alt="home" height="50"/></a></center>
                         </div>
                     </div>
                 </div>
