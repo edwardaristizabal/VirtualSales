@@ -32,11 +32,11 @@ function Login() {
                         <label for="connected" class="form-checkbox-label">Mantenerme Conectado</label>
                     </div>
                     <div class="d-grid">
-                        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                    <a href="/Principal"><button type="button"class="btn btn-primary">Iniciar Sesión</button></a>
                     </div>
                     <div class="my-3">
                         <span>No tienes cuenta? <a href="/">Regístrate</a></span><br/>
-                        <span><a href="/">Recupera tu Contraseña</a></span>
+                        <span><a href="/RecuperarContraseña">Recupera tu Contraseña</a></span>
                     </div>
                 </form>
 
