@@ -20,21 +20,21 @@ function Principal() {
 
                     <h1>Menu</h1><br /><br />
                     <nav class="navbar navbar-light bg-light" >
-                        <a class="navbar-brand" href="/AdministradordeVentas">
+                        <a class="navbar-brand" href="/AdmVentas">
                             <img src={admventas} height="100" class="d-inline-block align-top" alt="" align="center" /><br />
-                            <a href="/AdministradordeVentas"><button type="button" class="btn btn-secondary btn-lg">Administrador de Ventas</button></a>
+                            <a href="/AdmVentas"><button type="button" class="btn btn-secondary btn-lg">Administrador de Ventas</button></a>
                         </a><br />
-                        <a class="navbar-brand" href="/AdministradorUsuarios">
+                        <a class="navbar-brand" href="/AdmUsuarios">
                             <img src={admusuarios} height="100" class="d-inline-block align-top" alt="" align="center" /><br />
                             <a href="/AdmUsuarios"><button type="button" class="btn btn-secondary btn-lg">Administrador de Usuarios</button></a>
                         </a><br />
-                        <a class="navbar-brand" href="/GestordeVentas">
+                        <a class="navbar-brand" href="/GestorVentas">
                             <img src={ventas} height="100" class="d-inline-block align-top" alt="" align="center" /><br />
-                            <a href="/GestordeVentas"><button type="button" class="btn btn-secondary btn-lg">Gestor de Ventas</button></a>
+                            <a href="/GestorVentas"><button type="button" class="btn btn-secondary btn-lg">Gestor de Ventas</button></a>
                         </a><br />
-                        <a class="navbar-brand" href="/CambiodeContraseña">
+                        <a class="navbar-brand" href="/Cambiar_contrasena">
                             <img src={contrasena} height="100" class="d-inline-block align-top" alt="" align="center" /><br />
-                            <a href="/CambiodeContraseña"><button type="button" class="btn btn-secondary btn-lg">Cambio de Contraseña</button></a>
+                            <a href="/Cambiar_contrasena"><button type="button" class="btn btn-secondary btn-lg">Cambio de Contraseña</button></a>
                         </a><br />
                         <a class="navbar-brand" href="/AdmProductos">
                             <img src={vendedores} height="100" class="d-inline-block align-top" alt="" align="center" /><br />
@@ -48,7 +48,7 @@ function Principal() {
                 </div>
             </div>
             <div align="center">
-                <a class="navbar-brand" href="/Contacto" >
+                <a class="navbar-brand" href="/HistorialCompraCliente" >
                     <img src={contacto} width="100" height="100" class="d-inline-block align-top" alt="" align="center" /><br />
                     <a href="/HistorialCompraCliente"><button type="button" class="btn btn-secondary btn-lg">Contactanos</button></a>
                 </a>

@@ -41,14 +41,14 @@ function Editar_Venta() {
             </div>
 
             <div class="btn-group me-2" role="group">
-                <a href="/GestordeVentas"><button type="button" class="btn btn-secondary btn-lg ">Guardar</button></a></div>
+                <a href="/GestoreVentas"><button type="button" class="btn btn-secondary btn-lg ">Guardar</button></a></div>
             <div class="btn-group me-2" role="group" >
                 <button type="button" class="btn btn-secondary btn-lg">Limpiar</button></div>
             <div class="btn-group me-2" role="group">
-                <a href="/GestordeVentas"><button type="button" class="btn btn-secondary btn-lg ">Cancelar</button></a></div>  
+                <a href="/GestorVentas"><button type="button" class="btn btn-secondary btn-lg ">Cancelar</button></a></div>  
             <div class="btn-group me-2" role="group">
                 <button type="button" class="btn btn-secondary btn-lg">Agregar</button></div>
-            <a href="/AdministradordeVentas"><img src={home} alt="logo" height="50" align="center" /></a>   
+            <a href="/AdmVentas"><img src={home} alt="logo" height="50" align="center" /></a>   
 
 
             <br /><br />

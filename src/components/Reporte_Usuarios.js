@@ -84,7 +84,7 @@ function Reporte_Usuarios() {
                 </tbody>
             </table>
 
-            <a href="/AdministradordeVentas"><img src={home} alt="logo" height="50" align="center" /></a>
+            <a href="/AdmUsuarios"><img src={home} alt="logo" height="50" align="center" /></a>
         </div>
 
     )
