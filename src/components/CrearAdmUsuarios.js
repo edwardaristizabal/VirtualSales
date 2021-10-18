@@ -2,7 +2,7 @@ import React from "react";
 import home from "../images/home.png";
 import logo from "../images/logo.png";
 
-function Editar_Administrador_usuario() {
+function AdmUsuarios() {
   return (
     <div>
       <div class="text-end">
@@ -15,23 +15,23 @@ function Editar_Administrador_usuario() {
       <div class="login-container">
         <div class="register">
           <center>
-            <h2>Editar (Administrador de Usuario)</h2>
+            <h2>Crear (Administrador de Usuario)</h2>
           </center>
           <div class="col-2 container w-95 my-5">
             <form action="">
               <center>
-                <label>Usuario:&nbsp;&nbsp;</label>
+                <label>Usuario:</label>
                 <input type="text" placeholder="" class="Usuario" disabled />
                 <br />
                 <br />
-                <label>Nombres:&nbsp;</label>
+                <label>Nombres:</label>
                 <input
                   type="text"
                   placeholder="Ingrese sus Nombres"
                   class="Nombre"
                 />
                 <br /> <br />
-                <label>Apellidos:&nbsp;</label>
+                <label>Apellidos:</label>
                 <input
                   type="text"
                   placeholder="Ingrese sus Apellidos"
@@ -42,18 +42,22 @@ function Editar_Administrador_usuario() {
                 <input
                   type="text"
                   placeholder="Ingrese Número de Documento"
-                  class="Documento"
+                  class="Apellido"
                 />
                 <br /> <br />
-                <label>Correo Electrónico:&nbsp;</label>
-                <input
-                  type="email"
-                  placeholder="Ingresa tu e-mail registradoo"
-                  class="email"
-                />
-                <br /> <br />
+                <div class="mb-3">
+                  <label for="email" class="form label">
+                    Correo Electrónico
+                  </label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    placeholder="Ingresa tu e-mail registrado"
+                  ></input>
+                </div>
                 <label>
-                  Rol:
+                  Rol
                   <select name="cargo">
                     <option>Administrador</option>
                     <option>Vendedor</option>
@@ -101,4 +105,4 @@ function Editar_Administrador_usuario() {
   );
 }
 
-export default Editar_Administrador_usuario;
+export default AdmUsuarios;

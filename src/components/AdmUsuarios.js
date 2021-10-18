@@ -2,7 +2,7 @@ import React from "react";
 import home from "../images/home.png";
 import logo from "../images/logo.png";
 
-function AdmVentas() {
+function AdmUsuarios() {
   return (
     <div align="center">
       <div class="text-end">
@@ -10,18 +10,18 @@ function AdmVentas() {
       </div>
       <header>
         {" "}
-        <h3>Administrador de Ventas</h3>{" "}
+        <h3>Administrador de Usuarios</h3>{" "}
       </header>
       <br />
       <div class="btn-group me-2" role="group">
-        <a href="/Crear_Venta">
+        <a href="/CrearAdmUsuarios">
           <button type="button" class="btn btn-secondary btn-lg">
             Crear
           </button>
         </a>
       </div>
       <div class="btn-group me-2" role="group">
-        <a href="/Editar_Venta">
+        <a href="/EditarAdmUsuario">
           <button type="button" class="btn btn-secondary btn-lg">
             Editar
           </button>
@@ -44,21 +44,15 @@ function AdmVentas() {
       <label>"Usuario"</label> <br /> <br />
       <table class="table table-aqua table-striped">
         <thead align="middle">
-          <th>Codigo de Venta</th>
-          <th>Cliente</th>
-          <th>Cantidad Artículos</th>
-          <th>Costo Total</th>
-          <th>Vendedor</th>
-          <th>Destino</th>
-          <th>Fecha Pedido</th>
-          <th>Fecha Estimada de Entrega</th>
+          <th>Número Documento</th>
+          <th>Nombres</th>
+          <th>Apellidos</th>
+          <th>E-mail</th>
+          <th>Rol</th>
+          <th>Estado</th>
         </thead>
         <tbody>
           <tr align="middle">
-            <a href="/HistorialVentas">
-              <td>No aplica</td>
-            </a>
-            <td>No aplica</td>
             <td>No aplica</td>
             <td>No aplica</td>
             <td>No aplica</td>
@@ -67,10 +61,6 @@ function AdmVentas() {
             <td>No aplica</td>
           </tr>
           <tr align="middle">
-            <a href="/HistorialVentas">
-              <td>No aplica</td>
-            </a>
-            <td>No aplica</td>
             <td>No aplica</td>
             <td>No aplica</td>
             <td>No aplica</td>
@@ -83,7 +73,7 @@ function AdmVentas() {
       <br />
       <br />
       <div class="btn-group me-5" role="group">
-        <a href="/Reporte_Venta">
+        <a href="/Reporte_Usuarios">
           <button type="button" class="btn btn-secondary btn-lg">
             Reportes
           </button>
@@ -96,4 +86,4 @@ function AdmVentas() {
   );
 }
 
-export default AdmVentas;
+export default AdmUsuarios;

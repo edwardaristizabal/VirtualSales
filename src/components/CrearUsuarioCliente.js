@@ -21,32 +21,59 @@ function CrearUsuarioCliente() {
             <form action="">
               <center>
                 <label>Usuario:</label>
-                <input type="text" class="numero documentoS" disabled value=""/>
+                <input
+                  type="text"
+                  class="numero documentoS"
+                  disabled
+                  value=""
+                />
                 <br />
                 <br />
                 <label>Nombres:</label>
-                <input type="text" placeholder="Ingrese sus Nombres" class="Nombre"/>
+                <input
+                  type="text"
+                  placeholder="Ingrese sus Nombres"
+                  class="Nombre"
+                />
                 <br /> <br />
                 <label>Apellidos:</label>
-                <input type="text" placeholder="Ingrese sus Apellidos" class="Apellido" />
+                <input
+                  type="text"
+                  placeholder="Ingrese sus Apellidos"
+                  class="Apellido"
+                />
                 <br /> <br />
                 <label>Numero de Documento:</label>
-                <input type="text" placeholder="Ingrese Número de Documento" class="numero documento" />
+                <input
+                  type="text"
+                  placeholder="Ingrese Número de Documento"
+                  class="numero documento"
+                />
                 <br /> <br />
                 <div class="mb-3">
                   <label for="email" class="form label">
                     Correo Electrónico
                   </label>
-                  <input type="email" class="form-control" name="email" placeholder="Ingresa tu e-mail registrado"></input>
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    placeholder="Ingresa tu e-mail registrado"
+                  ></input>
                 </div>
                 <label>
-                    Rol
-                    <input type="text" value="Cliente" class="rol" disabled/>
+                  Rol
+                  <input type="text" value="Cliente" class="rol" disabled />
                 </label>
                 <br /> <br />
                 <label>
                   Estado:
-                  <input type="text" value="Pendiente" class="estado" disabled/>
+                  <input
+                    type="text"
+                    value="Pendiente"
+                    class="estado"
+                    disabled
+                  />
                 </label>
               </center>
             </form>
@@ -79,3 +106,4 @@ function CrearUsuarioCliente() {
 }
 
 export default CrearUsuarioCliente;
+
