@@ -14,14 +14,18 @@ function AdmUsuarios() {
       </header>
       <br />
       <div class="btn-group me-2" role="group">
-        <a href="/CrearAdmUsuarios"><button type="button" class="btn btn-secondary btn-lg">
-          Crear
-        </button></a>
+        <a href="/CrearAdmUsuarios">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Crear
+          </button>
+        </a>
       </div>
       <div class="btn-group me-2" role="group">
-        <a href="/EditarAdmUsuario"><button type="button" class="btn btn-secondary btn-lg">
-          Editar
-        </button></a>
+        <a href="/EditarAdmUsuario">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Editar
+          </button>
+        </a>
       </div>
       <div class="btn-group me-5" role="group">
         <button type="button" class="btn btn-secondary btn-lg">
@@ -29,13 +33,7 @@ function AdmUsuarios() {
         </button>
       </div>
       <div class="btn-group me-4" role="group">
-        <input
-          type="search"
-          name="Buscar"
-          id="Buscar"
-          placeholder="Buscar"
-          size="50"
-        />
+        <input type="search" name="Buscar" id="Buscar" placeholder="Buscar" size="50"/>
       </div>
       <label>"Usuario"</label> <br /> <br />
       <table class="table table-aqua table-striped">
@@ -69,9 +67,11 @@ function AdmUsuarios() {
       <br />
       <br />
       <div class="btn-group me-5" role="group">
-        <a href="/Reporte_Usuarios"><button type="button" class="btn btn-secondary btn-lg">
-          Reportes
-        </button></a>
+        <a href="/Reporte_Usuarios">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Reportes
+          </button>
+        </a>
       </div>
       <a href="/Principal">
         <img src={home} onClick="" alt="logo" height="50" />
