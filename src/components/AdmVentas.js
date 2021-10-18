@@ -11,9 +11,9 @@ function AdmVentas() {
         <header> <h3>Administrador de Ventas</h3>  </header>
         <br/>
         <div class="btn-group me-2" role="group">
-        <button type="button" class="btn btn-secondary btn-lg">Crear</button></div>
+        <a href="/Crear_Venta"><button type="button" class="btn btn-secondary btn-lg">Crear</button></a></div>
         <div class="btn-group me-2" role="group">
-        <button type="button" class="btn btn-secondary btn-lg">Editar</button></div>
+        <a href="/Editar_Venta"><button type="button" class="btn btn-secondary btn-lg">Editar</button></a></div>
         <div class="btn-group me-5" role="group">
         <button type="button" class="btn btn-secondary btn-lg">Eliminar</button></div>
         <div class="btn-group me-4" role="group">
@@ -35,7 +35,7 @@ function AdmVentas() {
             <tbody>
            
             <tr align="middle">
-                <td>No aplica</td>
+                <a href="/HistorialVentas"><td>No aplica</td></a>
                 <td>No aplica</td>
                 <td>No aplica</td>
                 <td>No aplica</td>
@@ -46,7 +46,7 @@ function AdmVentas() {
                 
             </tr>
             <tr align="middle">
-                <td>No aplica</td>
+                <a href="/HistorialVentas"><td>No aplica</td></a>
                 <td>No aplica</td>
                 <td>No aplica</td>
                 <td>No aplica</td>
@@ -60,9 +60,9 @@ function AdmVentas() {
     
         <br/><br/>
         <div class="btn-group me-5" role="group">
-        <button type="button" class="btn btn-secondary btn-lg">Reportes</button></div>
+        <a href="/Reporte_Venta"><button type="button" class="btn btn-secondary btn-lg">Reportes</button></a></div>
         <a href="/Principal"><img src={home} onClick="" alt="logo" height="50"/></a>
-    
+        
         </div>
     )
 }

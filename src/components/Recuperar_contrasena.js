@@ -28,7 +28,7 @@ function Recuperar_contrasena() {
                                 </div><br/>
                             <center> Ya tienes una cuenta? <a href="/">
                             &nbsp;Iniciar sesión</a></center><br/>
-                            <center><a href="/Principal"><img src={home} alt="home" height="50"/></a></center>
+                            <center><a href="/Login"><img src={home} alt="home" height="50"/></a></center>
                         </div>
                     </div>
                 </div>
