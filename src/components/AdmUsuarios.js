@@ -14,18 +14,14 @@ function AdmUsuarios() {
       </header>
       <br />
       <div class="btn-group me-2" role="group">
-        <a href="/CrearAdmUsuarios">
-          <button type="button" class="btn btn-secondary btn-lg">
-            Crear
-          </button>
-        </a>
+        <a href="/CrearAdmUsuarios"><button type="button" class="btn btn-secondary btn-lg">
+          Crear
+        </button></a>
       </div>
       <div class="btn-group me-2" role="group">
-        <a href="/EditarAdmUsuario">
-          <button type="button" class="btn btn-secondary btn-lg">
-            Editar
-          </button>
-        </a>
+        <a href="/EditarAdmUsuario"><button type="button" class="btn btn-secondary btn-lg">
+          Editar
+        </button></a>
       </div>
       <div class="btn-group me-5" role="group">
         <button type="button" class="btn btn-secondary btn-lg">
@@ -73,11 +69,9 @@ function AdmUsuarios() {
       <br />
       <br />
       <div class="btn-group me-5" role="group">
-        <a href="/Reporte_Usuarios">
-          <button type="button" class="btn btn-secondary btn-lg">
-            Reportes
-          </button>
-        </a>
+        <a href="/Reporte_Usuarios"><button type="button" class="btn btn-secondary btn-lg">
+          Reportes
+        </button></a>
       </div>
       <a href="/Principal">
         <img src={home} onClick="" alt="logo" height="50" />

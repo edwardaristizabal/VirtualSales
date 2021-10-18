@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import home from "../images/home.png";
 import logo from "../images/logo.png";
 
@@ -100,9 +100,9 @@ function AdmUsuarios() {
           <img src={home} alt="home" height="50" />
         </a>
       </div>
-      <br />
+      <br/>
     </div>
   );
 }
 
-export default AdmUsuarios;
+export default AdmUsuarios
