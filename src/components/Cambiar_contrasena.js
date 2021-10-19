@@ -6,7 +6,7 @@ function Cambiar_contrasena() {
     return (
       <div>
         <div class="text-end">
-          <img src={logo} width="60" alt=""></img>
+          <img src={logo} width="70" alt=""></img>
         </div>
         <h2 class="fw-bold text-center py-5">Cambiar Contraseña</h2>
         <div class="col-2 container w-90 my-5">
@@ -36,7 +36,6 @@ function Cambiar_contrasena() {
             </div>   
             <a href="/Principal"><img src={home} alt="home" height="50"/></a>
           </div>
-          <br/>
       </div>
     );
 }

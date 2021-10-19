@@ -1,6 +1,6 @@
 import React from 'react'
+//import home from '../images/home.png'
 import logo from '../images/logo.png'
-import home from "../images/home.png";
 
 function HistorialVentas() {
     return (
@@ -49,7 +49,7 @@ function HistorialVentas() {
             </tr>
             </tbody>
         </table>
-            <a href="/Principal"><img src={home} alt="logo" height="50"/></a>
+            
         </div>
     )
 }
