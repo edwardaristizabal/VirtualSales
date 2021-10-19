@@ -83,7 +83,7 @@ const Editar_Producto = () => {
             <div class="btn-group me-2" role="group">
                 <button id="2"  onClick={modificar} class="btn btn-secondary btn-lg ">Guardar</button></div>
             <div class="btn-group me-2" role="group">
-            <a href="/CrearProducto"><button id="1"  type="submit" class="btn btn-secondary btn-lg ">Volver</button></a></div>
+            <a href="/AdmProductos"><button id="1"  type="submit" class="btn btn-secondary btn-lg ">Volver</button></a></div>
             
 
            
