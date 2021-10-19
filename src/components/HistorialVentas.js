@@ -1,11 +1,6 @@
 import React from 'react'
-<<<<<<< HEAD
 //import home from '../images/home.png'
 import logo from '../images/logo.png'
-=======
-import logo from '../images/logo.png'
-import home from "../images/home.png";
->>>>>>> 364d32bc55471fe05a1543e998b539149081892a
 
 function HistorialVentas() {
     return (
@@ -54,11 +49,7 @@ function HistorialVentas() {
             </tr>
             </tbody>
         </table>
-<<<<<<< HEAD
             
-=======
-            <a href="/Principal"><img src={home} alt="logo" height="50"/></a>
->>>>>>> 364d32bc55471fe05a1543e998b539149081892a
         </div>
     )
 }

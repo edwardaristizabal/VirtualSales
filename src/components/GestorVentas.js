@@ -13,9 +13,9 @@ function GestorVentas() {
         
        
         <div class="btn-group me-2" role="group">       
-        <a href="/Crear_Venta"><button type="button" class="btn btn-secondary btn-lg ">Crear</button></a></div>
+        <button type="button" class="btn btn-secondary btn-lg ">Crear</button></div>
         <div class="btn-group me-2" role="group" >
-        <a href="/Editar_Venta"><button type="button" class="btn btn-secondary btn-lg">Editar</button></a></div>
+        <button type="button" class="btn btn-secondary btn-lg">Editar</button></div>
         <div class="btn-group me-5" role="group">
         <button type="button" class="btn btn-secondary btn-lg">Eliminar</button></div>
         <div class="btn-group me-4" role="group"> 
@@ -34,14 +34,13 @@ function GestorVentas() {
             </thead>
             <tbody>
             
-            <tr align="middle">
-                <a href="/HistorialVentas"><td>No aplica</td></a>
+            <tr align="middle"><td>No aplica</td>
                 <td>No aplica</td>
                 <td>No aplica</td>
                 <td>No aplica</td>
             </tr>
             <tr align="middle">
-                <a href="/HistorialVentas"><td>No aplica</td></a>
+                <td>No aplica</td>
                 <td>No aplica</td>
                 <td>No aplica</td>
                 <td>No aplica</td>
@@ -51,9 +50,9 @@ function GestorVentas() {
         </table>
 
         <div class="btn-group me-2" role="group">   
-        <a href="/Reporte_Venta"><button type="button" class="btn btn-secondary btn-lg">Reporte</button></a></div>
+        <button type="button" class="btn btn-secondary btn-lg">Reporte</button></div>
         <div class="btn-group me-5" role="group">
-        <a href="/CrearUsuarioCliente"><button type="button" class="btn btn-secondary btn-lg">Clientes</button></a></div>
+        <button type="button" class="btn btn-secondary btn-lg">Clientes</button></div>
         <a href="/Principal"><img src={home} alt="logo" height="50"/></a>
             
         </div>
