@@ -22,6 +22,8 @@ const CrearProducto = () => {
             [e.target.name]: e.target.value
         })
     };
+
+    
     const submit = (e) => {
         e.preventDefault();
         console.log('formValues', formValues);
@@ -108,7 +110,8 @@ const CrearProducto = () => {
                                     <td>{valor.cantidad}</td>
                                     <td>{valor.valor}</td>
                                     <td>{valor.estado}</td>
-                                    <td><a href={'/EditarProducto/'+valor.id}><button type="button" >Editar</button></a>
+                                    <td><a href={`/EditarProducto/${valor.id}`}><button type="button" >Editar</button></a>
+                                    {/*<a href={'/EditarProducto/'+valor.id}><button type="button" >Editar</button></a>*/}
                                         <button type="button" onClick={()=>eliminar(valor.id)}>Eliminar</button>
                                     </td>
                                 </tr>
