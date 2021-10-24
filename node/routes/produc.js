@@ -23,6 +23,7 @@ router.get('/geT',(req,res)=>{
 router.get('/ge/:id',(req,res)=>{
     Product.findByPk(req.params.id).then(produc =>{
         res.json(produc);
+       
     })
 });
 
